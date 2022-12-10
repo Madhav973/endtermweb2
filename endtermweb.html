@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            position: fixed;
+            top:0; left:0; right: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:2rem 9%;
+            background:#fff;
+            box-shadow: var(--box-shadow);
+}
+
+.header .navbar {
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--black);
+}
+
+.header .navbar span:hover{
+    color: rgb(0, 157, 255);
+}
+.header .logo{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+
+.header .logo i{
+    color:var(--orange);
+}
+
+.man{
+    
+}
+.two{
+        background-color: rgb(245, 245, 245);
+        width: 1080px;
+        margin: 1px auto;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
+    .two_two{
+        background-color: rgb(245, 245, 245);
+        width: 800px;
+        margin: 1px auto;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }
+
+    .first{
+        height: 100px;
+        width: 150px;
+        border-radius: 7%;
+    }
+    .two_two_one{
+        background-color: rgb(146, 143, 143);
+        width: 100px;
+        margin: 1px auto;
+        padding: 3px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2px;
+        align-items: right;
+    }
+    .jojoj{
+        font-size: small;
+        background-color: rgb(99, 138, 177) ;
+        border: solid rgb(99, 138, 177);
+        color: rgb(7, 62, 111);
+        border-radius: 10%;
+        padding: 2px;
+    }
+    .toto{
+        font-size: small;
+        padding: 4px;
+        background-color: rgb(0, 70, 174) ;
+        border: solid rgb(0, 70, 174);
+        color: rgb(255, 255, 255);
+        border-radius: 10%;
+        cursor: pointer;
+    }
+    .toto2{
+        font-size: small;
+        margin: 2px;
+        padding: 4px;
+        background-color: rgb(164, 165, 166) ;
+        border: solid rgb(164, 165, 166);
+        color: rgb(82, 81, 81);
+        border-radius: 10%;
+        cursor: pointer;
+    }
+    .toto23{
+        font-size: xx-small;
+        margin: 2px;
+        padding: 1px;
+        background-color: rgb(164, 165, 166) ;
+        border: solid rgb(164, 165, 166);
+        color: rgb(82, 81, 81);
+        border-radius: 10%;
+        float: right;
+    }
+    .button{
+        color: #fff;
+        background-color: rgb(0, 144, 247);
+        border-radius: 10%;
+    }
+    .two_one_tata{
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgb(204, 226, 250);
+    }
+    .two_one{
+        float: left;
+    }
+
+
+
+    </style>
+</head>
+<body style="background-color: grey;">
+    <div class="man">
+        <br>
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <hr>
+        <div>
+        <header class="header">
+
+            <span> Milao</span>
+
+            <nav class="navbar">
+                <span>Search Naukri&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Company Review&nbsp;&nbsp;&nbsp;&nbsp;</span><span>Find Salaries</span>
+            </nav>
+
+        </header>
+        </div>
+        <center><img src="tttt.png" width="1140px"></center>
+        <div class="two">
+            <!-- <img src="tttt.png" width="800px">
+            <br> -->
+            <div class="two_one">
+                <div class="two_one_tata">
+                    <b>Create Job Alert</b>
+                    <p>Create a job alert now and never miss a job</p>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <button class="button">Create Job Alert</button>
+                </div>
+                <uL>
+                    <b style="font-size: small;">Type Of Employment</b>
+                    <li type="none"><input type="checkbox"><span>Full Time Jobs</span><span class="toto23">56</span></li>
+                    <li type="none"><input type="checkbox"><span>Part Time Jobs</span><span class="toto23">43</span></li>
+                    <li type="none"><input type="checkbox"><span>Remote Jobs</span><span class="toto23">24</span></li>
+                    <li type="none"><input type="checkbox"><span>Intership Jobs</span><span class="toto23">27</span></li>
+                    <li type="none"><input type="checkbox"><span>Contract</span><span class="toto23">76</span></li>
+                    <li type="none"><input type="checkbox"><span>Training Jobs</span><span class="toto23">38</span></li>
+                    
+                </uL>
+                <uL>
+                    <b style="font-size: small;">Seniority Level</b>
+                    <li type="none"><input type="checkbox"><span>Student Level</span><span class="toto23">88</span></li>
+                    <li type="none"><input type="checkbox"><span>Entry Level</span><span class="toto23">97</span></li>
+                    <li type="none"><input type="checkbox"><span>Mid Level</span><span class="toto23">45</span></li>
+                    <li type="none"><input type="checkbox"><span>Senior Level</span><span class="toto23">23</span></li>
+                    <li type="none"><input type="checkbox"><span>Directors</span><span class="toto23">10</span></li>
+                    <li type="none"><input type="checkbox"><span>VP or Above</span><span class="toto23">54</span></li>
+                    
+                </uL>
+                <uL>
+                    <b style="font-size: small;">Salary Range</b>
+                    <br>
+                    <li type="none"><input type="checkbox"><span>$700 - $1000</span><span class="toto23">27</span></li>
+                    <li type="none"><input type="checkbox"><span>$1000 - $1200</span><span class="toto23">43</span></li>
+                    <li type="none"><input type="checkbox"><span>$1200 - $1400</span><span class="toto23">78</span></li>
+                    <li type="none"><input type="checkbox"><span>$1500 - $1800</span><span class="toto23">21</span></li>
+                    <li type="none"><input type="checkbox"><span>$2000 - $3000</span><span class="toto23">56</span></li>
+                    <li type="none"><input type="checkbox"><span>$3000 - $4000</span><span class="toto23">32</span></li>
+                    
+                </uL>
+            </div>
+            <div class="two_two">
+                <div>
+                    <b>Ui/Ux Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>St. Product Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <br>
+                    <br>
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                
+                <div>
+                    <b>User Experience Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>Product Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>Ui/Ux Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>UI Developer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>User Interface Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>UI/UX Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+                <div>
+                    <b>Ux Designer</b>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis.</p>
+                    <!-- <div class="two_two_one">
+                        <span>jojo</span><span>jojo</span><span>jojo</span>
+                    </div> -->
+                    <span class="jojoj">Full Time</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Min. 1 year</span>&nbsp;&nbsp;&nbsp;<span class="jojoj">Senior Level</span>&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+
+                    <button class="toto">Apply Now</button>&nbsp;&nbsp;&nbsp;<button class="toto2">Messages</button>
+                </div>
+               
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
